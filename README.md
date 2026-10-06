@@ -54,7 +54,7 @@ The design allows the reporting framework to expand without requiring a complete
 
 ## Data Architecture and Model
 
-![Road to 75 Semantic Model](screenshots/Data%20Model.png)
+![Road to 75 Semantic Model](screenshots/Model.png)
 
 *Semantic model — Star-style model centred on Sessions, with separate score, distance, context and calendar tables plus a dedicated measures layer.*
 
