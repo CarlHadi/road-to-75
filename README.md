@@ -54,6 +54,10 @@ The design allows the reporting framework to expand without requiring a complete
 
 ## Data Architecture and Model
 
+![Road to 75 Semantic Model](screenshots/Data%20Model.png)
+
+*Semantic model — Star-style model centred on Sessions, with separate score, distance, context and calendar tables plus a dedicated measures layer.*
+
 The Power BI model is centred around a **Sessions** table, with related tables for scored rounds, distance-level results, and session context.
 
 A dedicated **Calendar** table supports time-based analysis.
@@ -86,6 +90,10 @@ The report is structured as a guided analytical journey.
 
 ### Overview
 
+![Road to 75 Overview](screenshots/Overview.png)
+
+*Overview — Headline session KPIs, round performance, distance profile and contextual metrics.*
+
 Provides a snapshot of current performance using headline KPIs such as:
 
 - latest session date;
@@ -99,6 +107,10 @@ Provides a snapshot of current performance using headline KPIs such as:
 It also includes round-level performance, average scores by distance, current session context, notes, and achievements.
 
 ### Distance Analysis
+
+![Road to 75 Distance Analysis](screenshots/Distance%20Analysis.png)
+
+*Distance Analysis — Compares average scores, consistency and score gaps across 3m–7m.*
 
 Breaks performance down across 3m-7m to identify strengths, weaknesses, consistency, and progression.
 
@@ -115,6 +127,10 @@ A consistent colour convention is used for 3m, 4m, 5m, 6m, and 7m so distances c
 
 ### Consistency & Progress
 
+![Road to 75 Consistency and Progress](screenshots/Consistency%20%26%20Progress.png)
+
+*Consistency & Progress — Tracks average round performance, ceiling/floor and walk-back consistency over time.*
+
 Tracks whether performance is becoming more repeatable over time.
 
 Analysis includes:
@@ -128,6 +144,10 @@ Analysis includes:
 The aim is to show not only whether scores are increasing, but whether stronger performances are becoming more consistent.
 
 ### Session Context
+
+![Road to 75 Session Context](screenshots/Session%20Context.png)
+
+*Session Context — Explores how energy, focus, physical setup and distraction relate to performance.*
 
 Explores whether session conditions appear to relate to throwing performance.
 
